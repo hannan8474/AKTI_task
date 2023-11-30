@@ -1,0 +1,122 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: azure;
+}
+
+.navbar {
+    background-color: lightslategray;
+}
+.website-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.nav-item {
+    margin: 0 15px 0 15px;
+}
+.navbar-brand:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.nav-link:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.form-control {
+     width: 250px;
+    border-radius: 10px;
+}
+.btn {
+    background-color: white;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: lightslategray;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0 40px 0;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.carousel {
+    margin-left: 250px;
+    width: 75% !important;
+    
+}
+.contact {
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-container {
+    padding-top: 24px;
+    background-color: lightslategray;
+    color: rgba(0, 0, 0, 0.65);
+    margin-top: 20px;
+}
+.address {
+    padding-left: 10px;
+}
+.social {
+    padding: 0 20px 10px 0;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.65);
+}
+a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 30px 0 0 30px;
+}
+.card {
+    margin: 5px;
+}
+.btn {
+    color: black;
+}
+.blogs {
+    margin: 40px 20px 40px 20px;
+}
+.form-setting {
+    margin: 50px 0 100px 100px;
+}
